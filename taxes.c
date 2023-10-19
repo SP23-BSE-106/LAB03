@@ -1,4 +1,6 @@
 /**
+* Author:Munazza Javed
+ * Date:19/10/2023
  * This program computes income taxes based on adjusted
  * gross income and a child tax credit.
  *
