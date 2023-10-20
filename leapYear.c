@@ -117,5 +117,14 @@ int isLeapYear(int year) {
   //      The year is stored in the variable year
   //      Your function should return true (1) if it represents a leap year
   //      and false (0) if it does not.
-
+ if(year%4==0 && year%100==0 || year%400!=0)
+{
+  printf("Year is the leap year");
+  return 1;
+}
+else
+{
+  printf("year is not the leap year");
+  return 0;
+}
 }
