@@ -62,6 +62,43 @@ int main(int argc, char **argv) {
   //TODO: write *at least* 3 more of your own
   //      test cases here, they should all pass!
 
+  // test case 1
+
+year = 2100;
+  printf("Test Case 3: year = %d: ", year);
+  if(isLeapYear(year)) {
+    printf("FAILED!\n");
+    numFailed = numFailed + 1;
+  } else {
+    printf("PASSED!\n");
+    numPassed = numPassed + 1;
+  }
+
+// test case 2
+
+year = 2100;
+  printf("Test Case 3: year = %d: ", year);
+  if(isLeapYear(year)) {
+    printf("FAILED!\n");
+    numFailed = numFailed + 1;
+  } else {
+    printf("PASSED!\n");
+    numPassed = numPassed + 1;
+  }
+
+
+// test case 3
+
+year = 2100;
+  printf("Test Case 3: year = %d: ", year);
+  if(isLeapYear(year)) {
+    printf("FAILED!\n");
+    numFailed = numFailed + 1;
+  } else {
+    printf("PASSED!\n");
+    numPassed = numPassed + 1;
+  }
+
   printf("\n\n");
   printf("Summary:\n");
   printf("Number of test cases passed: %d\n", numPassed);
@@ -80,4 +117,5 @@ int isLeapYear(int year) {
   //      The year is stored in the variable year
   //      Your function should return true (1) if it represents a leap year
   //      and false (0) if it does not.
+
 }
