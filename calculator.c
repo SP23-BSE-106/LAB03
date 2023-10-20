@@ -60,3 +60,20 @@ int main(int argc, char **argv) {
 
   return 0;
 }
+
+/*
+OUTPUT
+
+PS D:\LABWORK\CSCE155-C-Lab03> .\a.exe
+Enter operand a: 48
+Enter operand b: 2
+Enter operation:  
+(1) Addition      
+(2) Subtraction   
+(3) Multiplication
+(4) Division      
+(5) Minimum       
+(6) log_a(b)      
+5
+2.000000
+*/
