@@ -74,3 +74,17 @@ else{   tax = 0.10 * agi;
 
   return 0;
 }
+/*
+OUTPUT
+
+
+PS D:\LABWORK\CSCE155-C-Lab03> gcc .\taxes.c
+PS D:\LABWORK\CSCE155-C-Lab03> .\a.exe
+Please enter your adjusted gross income (AGI): 50900
+Do you have any children? (Y) or (N)? Y
+How many children do you have? 2
+AGI:          $  50900.00
+Tax:          $   5710.00
+Child Credit: $   4000.00
+Total Tax:    $   1710.00
+*/
