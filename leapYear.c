@@ -41,7 +41,7 @@ int main(int argc, char **argv) {
 
   year = 2001;
   printf("Test Case 2: year = %d: ", year);
-  if(isLeapYear(year)) {
+  if(!isLeapYear(year)) {
     printf("FAILED!\n");
     numFailed = numFailed + 1;
   } else {
@@ -51,7 +51,7 @@ int main(int argc, char **argv) {
 
   year = 2100;
   printf("Test Case 3: year = %d: ", year);
-  if(isLeapYear(year)) {
+  if(!isLeapYear(year)) {
     printf("FAILED!\n");
     numFailed = numFailed + 1;
   } else {
@@ -110,7 +110,7 @@ int isLeapYear(int year) {
   //      The year is stored in the variable year
   //      Your function should return true (1) if it represents a leap year
   //      and false (0) if it does not.
- if(year%4==0 && year%100==0 || year%400!=0)
+ if(year%4==0 && year%100!=0 || year%400==0)
 {
   printf("Year is the leap year");
   return 1;
@@ -123,8 +123,8 @@ else
 }
 /*
 Test Case 1: year = 2000: Year is the leap yearPASSED!
-Test Case 2: year = 2001: Year is the leap yearFAILED!
-Test Case 3: year = 2100: Year is the leap yearFAILED!
+Test Case 2: year = 2001: year is not the leap yearFAILED!
+Test Case 3: year = 2100: year is not the leap yearFAILED!
 Test Case 4: year = 2028: Year is the leap yearPASSED!
 Test Case 5: year = 2032: Year is the leap yearPASSED!
 Test Case 6: year = 2036: Year is the leap yearPASSED!
